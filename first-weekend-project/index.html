@@ -12,9 +12,11 @@
       <h1>Maplewood Community Hub</h1>
       <p>Bringing our neighbourhood together —  one event at a time</p>
       <nav>
-        <a href="#">Home</a> | 
-        <a href="#"> Events</a> |
-        <a href="#"> Join Us</a>
+        <a href="index.html">Home</a> 
+        |  
+        <a href="events.html">Events</a> 
+        | 
+        <a href="contact.html">Join Us</a>
       </nav>
     </header>
     <hr/>
@@ -30,12 +32,14 @@
       </p>
 
       <form>
+        <!-- first name -->
         <div>
           <label for="firstName"> First Name:</label> <br />
           <input type="text" id="firstName" placeholder="e.g Sarah" required/>
         </div>
         <br/>
 
+        <!-- last name -->
         <div>
             <label for="lastName">Last Name:</label> <br/>
             <input type="text" id="lastName" placeholder="e.g Johnson" required />
@@ -62,9 +66,84 @@
 
           <div>
             <label for="datOfBirth">Date of Birth:</label> <br/>
-            <input type="date" id="dateOfBirth"/>
+            <input type="date" id="dateOfBirth" name="dateOfBirth" required/>
         </div>
         <br/>
+
+        <!-- fields requiring button selection -->
+        <p>Please select the membership that applies to you:</p>
+        
+        <div>
+          <input type="radio" id="individual" name="membership" value="individual" required/>
+          <label for=""> Individual (just me)</label>
+        </div>
+        <br/>
+
+        <div>
+          <input type="radio" id="family" name="membership" value="family" required/>
+          <label for=""> Family (up to 5 members at the same address)</label>
+        </div>
+        <br/>
+
+        <div>
+          <input type="radio" id="senior" name="membership" value="senior" required/>
+          <label for="senior"> Senior (age 60+) </label>
+        </div>
+        <br/>
+
+        <div>
+          <input type="radio" id="youth" name="membership" value="youth" required/>
+          <label for="youth"> Youth (under 18, parent/guardian must also register) </label>
+        </div>
+        <br/>
+
+        <!-- Field requiring checkbox selection -->
+        <p>Tick all the areas you'd like to be involved in:</p>
+
+        <div>
+          <input type="checkbox" id="gardening" name="interests" value="gardening" required/>
+          <label for="gardening"> Gardening & Park Maintenance </label>
+        </div>
+        <br/>
+
+        <div>
+          <input type="checkbox" id="sports" name="interests" value="sports" required/>
+          <label for="sports"> Sports & Fitness</label>
+        </div>
+        <br/>
+
+        <div>
+          <input type="checkbox" id="bookclub" name="interests" value="bookclub" required/>
+          <label for="bookclub"> Book Club </label>
+        </div>
+        <br/>
+
+        <div>
+          <input type="checkbox" id="volunteering" name="interests" value="volunteering" required/>
+          <label for="volunteering"> Volunteering & Event Help</label>
+        </div>
+        <br/>
+
+        <div>
+          <input type="checkbox" id="arts" name="interests" value="arts" required/>
+          <label for="arts"> Arts & Crafts </label>
+        </div>
+        <br/>
+
+        <div>
+          <input type="checkbox" id="gardening" name="interests" value="gardening" required/>
+          <label for="gardening"> Gardening & Park Maintenance </label>
+        </div>
+        <br/>
+
+        <div>
+          <input type="checkbox" id="kids" name="interests" value="kids" required/>
+          <label for="kids"> Children's Activities</label>
+        </div>
+        <br/>
+
+
+
 
       </form>
     </main>
