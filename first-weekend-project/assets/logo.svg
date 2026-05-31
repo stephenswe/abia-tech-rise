@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+
+  <!-- Background pill -->
+  <rect x="0" y="0" width="320" height="120" rx="16" ry="16" fill="#2C5F2E"/>
+
+  <!-- Maple leaf shape (centered left side) -->
+  <g transform="translate(58, 60)">
+    <!-- Main leaf body using path -->
+    <path d="
+      M0,-38
+      C2,-30 10,-28 8,-20
+      C14,-24 20,-18 16,-12
+      C22,-14 26,-8 20,-4
+      C28,-4 30,4 22,6
+      C26,10 24,18 16,16
+      C18,22 12,26 8,20
+      C6,28 2,32 0,38
+      C-2,32 -6,28 -8,20
+      C-12,26 -18,22 -16,16
+      C-24,18 -26,10 -22,6
+      C-30,4 -28,-4 -20,-4
+      C-26,-8 -22,-14 -16,-12
+      C-20,-18 -14,-24 -8,-20
+      C-10,-28 -2,-30 0,-38
+      Z
+    " fill="#C8102E"/>
+
+    <!-- Stem -->
+    <rect x="-3" y="36" width="6" height="14" rx="3" fill="#C8102E"/>
+
+    <!-- Highlight on leaf -->
+    <path d="M0,-30 C1,-22 6,-20 5,-14" stroke="#E8405A" stroke-width="1.5" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- Divider line -->
+  <line x1="108" y1="20" x2="108" y2="100" stroke="#4A8F4C" stroke-width="1.5"/>
+
+  <!-- Text: MAPLEWOOD -->
+  <text
+    x="126"
+    y="52"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="22"
+    font-weight="bold"
+    fill="#F5F0E8"
+    letter-spacing="3"
+  >MAPLEWOOD</text>
+
+  <!-- Text: COMMUNITY HUB -->
+  <text
+    x="127"
+    y="74"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="13"
+    fill="#A8D5A2"
+    letter-spacing="5"
+  >COMMUNITY HUB</text>
+
+  <!-- Small decorative dots -->
+  <circle cx="127" cy="86" r="2" fill="#C8102E"/>
+  <circle cx="135" cy="86" r="2" fill="#C8102E"/>
+  <circle cx="143" cy="86" r="2" fill="#C8102E"/>
+
+</svg>

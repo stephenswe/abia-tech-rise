@@ -1,27 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Us</title>
+  </head>
+  <body>
     <!--This is the header section -->
     <header>
-        <img src="" alt="logo"/>
-        <h1>Maplewood Community Hub</h1>
-        <p> Bringing our neighbourhood together - one event at a time</p>
-        <nav>
-            <a href="">Home</a> |
-            <a href=""> Events</a> |
-            <a href=""> Join Us</a>
-        </nav>
+      <img src="./assets/logo.svg" width="300px" alt="Maplewood Community Hub Logo" />
+      <h1>Maplewood Community Hub</h1>
+      <p>Bringing our neighbourhood together - one event at a time</p>
+      <nav>
+        <a href="#">Home</a> | 
+        <a href="#"> Events</a> |
+        <a href="#"> Join Us</a>
+      </nav>
     </header>
-    <hr/>
+    <hr />
 
     <!-- This is the main/body section of the website -->
     <main>
+      <h1>Join the Maplewood community</h1>
 
+      <p>
+        Fill in the form below to become a member. Membership is
+        <b>completely free</b> and gives access to event updates, the monthly
+        newsletter, and voting rights on community decisions.
+      </p>
+
+      <form>
+        <div>
+          <label for="firstName"> First Name:</label> <br />
+          <input type="text" id="firstName" placeholder="e.g Sarah" required/>
+        </div>
+        <br/>
+
+        <div>
+            <label for="lastName">Last Name:</label> <br/>
+            <input type="text" id="lastName" placeholder="e.g Johnson" required />
+        </div>
+        <br/>
+
+        <div>
+            <label for="emailAdress">Email Address:</label> <br/>
+            <input type="text" id="emailAdress" placeholder="e.g Sarah@email.com"/>
+        </div>
+        <br/>
+
+        <div>
+            <label for="phoneNumber">Phone Number(optiona):</label> <br/>
+            <input type="text" id="phoneNumber" placeholder="e.g 555-0100"/>
+        </div>
+        <br/>
+
+        <div>
+            <label for="homeAddress">Home Street Address:</label> <br/>
+            <input type="text" id="homeAddress" placeholder="e.g 14 Oak Lane"/>
+        </div>
+        <br/>
+
+          <div>
+            <label for="homeAddress">Home Street Address:</label> <br/>
+            <input type="text" id="homeAddress" placeholder="e.g 14 Oak Lane"/>
+        </div>
+        <br/>
+
+      </form>
     </main>
-</body>
+  </body>
 </html>
